@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <div className="w-full bg-secondary min-h-40">
       <div className="container mx-auto flex flex-col xl:flex-row items-center justify-between ">
-        <div className="w-[450px] pt-8 pb-24 order-2 xl:order-none">
+        <div className="xl:w-[450px] pt-8 pb-24 order-2 xl:order-none">
           <div className="flex flex-col space-y-4 ">
             <motion.div
               initial={{ opacity: 0, y: -50 }}
