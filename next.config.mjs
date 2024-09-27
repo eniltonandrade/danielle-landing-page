@@ -1,8 +1,15 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
+    basePath: isProd ? '/danielle-landing-page' : '',
     transpilePackages: ['lucide-react'], // add this
     output: 'export',
-    distDir: 'dist'
+    distDir: 'dist',
+    images: {
+      unoptimized: true,
+    }
   }
 
 export default nextConfig;
