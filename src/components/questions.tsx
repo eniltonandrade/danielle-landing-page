@@ -27,7 +27,7 @@ export default function Questions() {
                   value={`item-${index}`}
                   key={`question-${index}`}
                 >
-                  <AccordionTrigger className="text-gray-500">
+                  <AccordionTrigger className="text-gray-500 text-start">
                     {question.questão}
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-500 ">
@@ -38,7 +38,7 @@ export default function Questions() {
             })}
           </Accordion>
           <div className="flex items-center justify-center mt-6">
-            <Link href="http://wa.me/message/TP4C4WTKDUQAB1" target="_blank">
+            <Link href="https://wa.me/5515997999842?text=Olá,gostaria%20de%20agendar%20um%20atendimento!" target="_blank">
               <Button variant="contact">
                 Ainda com dúvidas? Entre em contato
               </Button>

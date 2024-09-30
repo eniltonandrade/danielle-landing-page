@@ -17,7 +17,7 @@ export default function Header() {
 
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="http://wa.me/message/TP4C4WTKDUQAB1" target="_blank">
+          <Link href="https://wa.me/5515997999842?text=Olá,gostaria%20de%20agendar%20um%20atendimento!" target="_blank">
             <Button variant="default">Entre em contato</Button>
           </Link>
         </div>

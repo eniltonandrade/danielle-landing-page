@@ -50,7 +50,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="http://wa.me/message/TP4C4WTKDUQAB1"
+            href="https://wa.me/5515997999842?text=Olá,gostaria%20de%20agendar%20um%20atendimento!"
             target="_blank"
             className="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-accent/90"
           >
@@ -107,6 +107,9 @@ export default function Footer() {
             </svg>
           </a>
         </div>
+      </div>
+      <div className="flex items-center justify-center pb-2">
+      <p className="text-xs text-secondary">Criado por: <a href="https://wa.me/5514998297031">Enilton Andrade</a></p>
       </div>
     </footer>
   );

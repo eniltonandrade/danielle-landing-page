@@ -36,7 +36,7 @@ export default function Hero() {
               {texto}
             </motion.p>
 
-            <Link href="http://wa.me/message/TP4C4WTKDUQAB1" target="_blank">
+            <Link href="https://wa.me/5515997999842?text=Olá,gostaria%20de%20agendar%20um%20atendimento!" target="_blank">
               <Button
                 variant="contact"
                 className="uppercase hover:scale-105 transition-all w-full"
@@ -53,7 +53,7 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <div className="order-1 xl:order-none mb-8 xl:mb-0 pt-8 xl:pt-2">
+        <div className="order-1 xl:order-none pt-8 xl:pt-2">
           <HeroPhoto />
         </div>
       </div>

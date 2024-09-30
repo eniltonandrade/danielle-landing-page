@@ -30,7 +30,7 @@ export default function About() {
             <h2 className="text-accent font-bold text-4xl mb-6">
               Danielle Barbosa Negrão
             </h2>
-            <p className="text-gray-500 text-justify text-md leading-relaxed mr-8">
+            <p className="text-gray-500 text-justify text-md leading-relaxed xl:mr-8 mr-4">
               {texto}
             </p>
             <div className="flex items-center space-x-2 mt-2">
@@ -40,7 +40,7 @@ export default function About() {
               </span>
             </div>
             <div className="flex items-center justify-center space-x-6 py-6">
-            <Link href="http://wa.me/message/TP4C4WTKDUQAB1" target="_blank">
+            <Link href="https://wa.me/5515997999842?text=Olá,gostaria%20de%20agendar%20um%20atendimento!">
               <Button
                 variant="contact"
                 className="uppercase hover:scale-105 transition-all"

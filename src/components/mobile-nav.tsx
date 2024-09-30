@@ -1,7 +1,7 @@
 "use client";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import { usePathname } from "next/navigation";
-
+import  NextLink from "next/link";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import Image from "next/image";
@@ -17,16 +17,14 @@ export default function MobileNav() {
       </SheetTrigger>
       <SheetContent className="flex flex-col bg-primary">
         <div className="mt-32 mb-40 mx-auto text-2xl">
-          <Link href="/">
-            <Image src="/logo.png" height={120} width={210} alt="" />
-          </Link>
+          <Image src="/logo.png" height={120} width={210} alt="logo Danielle Negrão Advogada" />
         </div>
         <nav className="flex flex-col justify-center items-center gap-8">
           {LINKS.map((link, index) => {
             return (
               <Link
-                href={link.path}
-                key={'mobile_' + index}
+                to={link.path}
+                key={"mobile_" + index}
                 className={`${
                   link.path === pathname &&
                   "text-accent border-b-2 border-accent"
@@ -36,9 +34,9 @@ export default function MobileNav() {
               </Link>
             );
           })}
-          <Link href="/contato">
+          <NextLink href="https://wa.me/5515997999842?text=Olá,gostaria%20de%20agendar%20um%20atendimento!">
             <Button variant="contact">Entre em contato</Button>
-          </Link>
+          </NextLink>
         </nav>
       </SheetContent>
     </Sheet>
