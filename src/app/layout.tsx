@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <meta name="theme-color" content="#fefefe" />
-
+        <meta name="google-site-verification" content="Fj5POgwW5imB2fS8HZOOkQ6Exxt22aUb0kCRbz_LqGU" />
         <GTag />
       </head>
 
