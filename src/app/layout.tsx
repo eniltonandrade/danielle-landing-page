@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["100", "200","300","400","500
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://daniellenegrao.adv.br"),
-  title: "Direito de Família e Sucessões - Advocacia e Consultoria Jurídica - Danielle Barbosa Negrão",
+  title: "Direito de Família e Sucessões - Advocacia e Consultoria Jurídica - Danielle Negrão",
   description: "Advogada de família com especialização em divórcio, pensão, guarda e inventários. Atendimento humanizado e personalizado. Agende uma consulta!",
   keywords: ['Advogado de família', 'Advogado de divórcio', 'Advogado de inventário', 'Pensão alimentícia', 'Guarda compartilhada', 'Ação de alimentos', 'Advogado em Sorocaba'],
   openGraph: {
