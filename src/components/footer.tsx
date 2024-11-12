@@ -21,13 +21,13 @@ export default function Footer() {
               daniellenegrao.adv@gmail.com
             </a>
           </div>
-          <span className="text-gray-100 hidden xl:block">|</span>
-          <div className="flex items-center justify-center space-x-2">
+          {/* <span className="text-gray-100 hidden xl:block">|</span> */}
+          {/* <div className="flex items-center justify-center space-x-2">
             <MapPin className="size-5 text-gray-50" />
             <span className="text-gray-50 font-thin text-lg">
               Rua Garcia Redondo, nº 126, sala 01, Vila Jardini, CEP 18044-280
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="w-full h-auto flex items-center justify-center gap-2 flex-wrap">
           <a
